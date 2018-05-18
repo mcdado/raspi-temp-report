@@ -12,8 +12,9 @@ a Raspberry Pi and send it to a datastore (initally a Google Sheet).
 - This app uses [bcm2835](http://www.airspayce.com/mikem/bcm2835/) (installed during setup)
 
 ## Installation
+
 ```
 git clone https://github.com/mcdado/raspi-temp-report.git
 cd raspi-temp-report
-./setup.sh
+npm run setup
 ```
