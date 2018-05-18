@@ -6,6 +6,7 @@
   "scripts": {
     "setup": "./scripts/setup.sh",
     "deploy": "./scripts/deploy.sh",
+    "debug": "node --inspect=`ip route get 8.8.8.8 | awk 'NR==1 {print $NF}'`:9229 app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
