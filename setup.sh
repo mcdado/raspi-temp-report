@@ -1,5 +1,5 @@
 cd vendor && \
-tar zxvf bcm2835-*.tar.gz && \
+tar zxf bcm2835-*.tar.gz && \
 cd bcm2835-*/ && \
 ./configure && \
 make && \
