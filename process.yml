@@ -1,0 +1,6 @@
+apps:
+  - script    : app.js
+    name      : raspi-temp-report
+    exec_mode : fork
+    env       :
+      NODE_ENV: "production"
