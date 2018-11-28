@@ -31,6 +31,29 @@ You have to change `raspberrypi.local` to whatever hostname you Pi has, or even 
 **The deploy script will copy the necessary project files, but will not run the setup on the Pi.**  
 You have to run the setup the first time you deploy the app to the Pi.
 
+## Setup the sensor
+
+In `.env` file declare the id of the sensor as UNITNAME, the type of sensor as UNITTYPE, and the pin to which it is connected with UNITPIN.
+
+## Storage: PostgreSQL
+
+Setup PostgreSQL with these tables:
+
+```
+create table sensors (
+    id serial PRIMARY KEY,
+    name text
+);
+
+create table recordings (
+    id serial PRIMARY KEY,
+    sensor text,
+    temperature float(2),
+    humidity float(2),
+    timestamp timestamp
+);
+```
+
 ## Debugging
 
 You can run the app on the Raspberry Pi in debug mode by running with the dedicated npm script:
