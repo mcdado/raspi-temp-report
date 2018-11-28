@@ -9,5 +9,6 @@
 - .editorconfig
 - .eslintrc.js
 - .rsyncrc
+- logs
 - node_modules
 - vendor/*/
