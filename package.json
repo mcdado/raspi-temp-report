@@ -2,7 +2,7 @@
   "name": "raspi-temp-report",
   "version": "0.0.1",
   "description": "Track and report temperature and humidity data with Raspberry Pi.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "setup": "./scripts/setup.sh",
     "deploy": "./scripts/deploy.sh",
@@ -39,6 +39,7 @@
     "prettier-eslint": "^8.8.1"
   },
   "dependencies": {
+    "dotenv": "^5.0.1",
     "node-dht-sensor": "0.0.34"
   }
 }

@@ -1,7 +1,7 @@
 ##
 # This file is used to exclude files when deploying the project to a Raspberry Pi
-# using rsync while developing. To deploy the project, use `./deploy.sh raspberrypi`
-# where `raspberrypi` is the hostname of the device or the SSH configuration name.
+# using rsync while developing. To deploy the project, use `npm run deploy [hostname]`
+# where `[hostname]` is either the hostname or IP of the device or the SSH configuration name.
 ##
 
 - .git
