@@ -9,6 +9,5 @@
 - .editorconfig
 - .eslintrc.js
 - .rsyncrc
-- deploy.sh
 - node_modules
 - vendor/*/

@@ -1,7 +1,7 @@
 # Temperature Monitor
 
 This is a simple Node.js app to collect ambient data using a DHT22/AM2302 sensor attached to
-a Raspberry Pi and send it to a datastore (initally a Google Sheet).
+a Raspberry Pi and send it to a datastore (under development, ideally PostgreSQL).
 
 ## Requirements
 
